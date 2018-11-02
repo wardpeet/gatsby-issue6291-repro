@@ -7,6 +7,6 @@ This site is built from the standard Gatby 2 starter, the only addition being a 
 ## Instructions:
 * Checkout this repo
 * Install dependencies: *yarn install*
-* Generate images: *yarn gen-images* executes a script that generates 6000 random images in the ./data/images directory. To experiment with different numbers of images you can pass a number to this command: *yarn gen-images 8000*. This step can take some time.
+* Generate images: *yarn gen-images* executes a script that generates 6000 random images in the ./data directory. To experiment with different numbers of images you can pass a number to this command: *yarn gen-images 8000*. This step can take some time.
 * Build the site: *gatsby build*
 * To start over first run *yarn clean*
