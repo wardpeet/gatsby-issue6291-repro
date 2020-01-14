@@ -7,7 +7,7 @@ var argv = require('minimist')(process.argv.slice(2));
 
 const imgDir = './data';
 
-let imageCount = 6000;
+let imageCount = 3000;
 if(argv._[0] && !isNaN(parseInt(argv._[0]))){
     imageCount = parseInt(argv._[0])
 }
@@ -22,7 +22,7 @@ else {
     let bar = new ProgressBar(`[:bar] :current/${imageCount} | :percent | :eta secs`, {total: imageCount, width: 30})
 
     for(var i=1; i<=imageCount; i++){
-        imgGen.generateImage(640, 326, 80, function(err, image) {
+        imgGen.generateImage(320, 163, 50, function(err, image) {
             fs.writeFileSync(path.join(imgDir, 'image-' + i + '.jpg'), image.data);
             bar.tick();
         });
