@@ -5264,10 +5264,10 @@ gatsby-plugin-react-helmet@^3.0.12:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-gatsby-plugin-sharp@^2.3.11-sharp-jobs-v2.70:
-  version "2.3.11-sharp-jobs-v2.70"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.3.11-sharp-jobs-v2.70.tgz#3fdcac5677a91c6fff6e58a13089cb4df87355d2"
-  integrity sha512-DftrThMyT6os4x+VKT5kvmSYSjJnruU5l2LNg9GXQ7cnxZvF0TUSex4eobfDdk0w+R0VaF4El1homBm1hejy0A==
+gatsby-plugin-sharp@^2.3.11-sharp-jobs-v2.71:
+  version "2.3.11-sharp-jobs-v2.71"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.3.11-sharp-jobs-v2.71.tgz#8d48064555a484ca9d568187d7bdf969e720ff2f"
+  integrity sha512-vqLhDwWPpkAA0qw3KUdgl9UVnyIrE69Mui4QNPDswm1PplomvY7jMFPhzhQvZ4CVZ0N3swJhFKwBlG5vNcLNoQ==
   dependencies:
     "@babel/runtime" "^7.7.6"
     async "^2.6.3"
