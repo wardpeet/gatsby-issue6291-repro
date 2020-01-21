@@ -5159,14 +5159,6 @@ gatsby-cli@2.8.27:
     ink "^2.6.0"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@1.0.25:
-  version "1.0.25"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.25.tgz#8cc8e76a79063c43ac06d9b72100b7c6f1fb5b60"
-  integrity sha512-Pz5xueweH9qv5TIW7wwlTxI/CbyzkiE5xvgLicbHbU+InH+lCNt4VuvGP1gQcIRuHMCIbuVKSiVCC7jnxEbtrA==
-  dependencies:
-    ci-info "2.0.0"
-    node-object-hash "^2.0.0"
-
 gatsby-core-utils@1.0.26, gatsby-core-utils@^1.0.26:
   version "1.0.26"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.26.tgz#e1cbdfad498d58d677d9d74f21a1ede661b49d6f"
@@ -5264,16 +5256,16 @@ gatsby-plugin-react-helmet@^3.0.12:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-gatsby-plugin-sharp@^2.3.11-sharp-jobs-v2.74:
-  version "2.3.11-sharp-jobs-v2.74"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.3.11-sharp-jobs-v2.74.tgz#7102481cee13cca0af920b8a7d636e3fb51b9ee1"
-  integrity sha512-GSbCWvkaTku0gz8QnqjdtOEIUrBXh/9GrSd5GDWI0W9FH9n7ACB81ERIfAXxHHOkg2Q5iScVCr+ENQWLNnX7Tw==
+gatsby-plugin-sharp@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.4.0.tgz#9df4c2646a34fb7ea4ff5428f6662ef3c0a80cde"
+  integrity sha512-PmifXRuy0R16uoWPIMvjHgoPdkG30uUS9r+XYAp+WW4Q7oWy1q0R2tia3rcdwvGeOsxX98W95jy8QTqhQ3BDFQ==
   dependencies:
     "@babel/runtime" "^7.7.6"
     async "^2.6.3"
     bluebird "^3.7.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "1.0.25"
+    gatsby-core-utils "^1.0.26"
     got "^8.3.2"
     imagemin "^6.1.0"
     imagemin-mozjpeg "^8.0.0"
@@ -5355,10 +5347,10 @@ gatsby-transformer-sharp@^2.1.21:
     semver "^5.7.1"
     sharp "^0.23.4"
 
-gatsby@^2.18.12-jobs-api-v2.67:
-  version "2.18.12-jobs-api-v2.67"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.18.12-jobs-api-v2.67.tgz#dd79908c39cd08109e3bf5f8c6644a0486eede68"
-  integrity sha512-+cOVrZZ4Gap7ebxNvyAOiUbhjqHgmNlIuJa2Az8/smvi5BnSDiQBLPXJBeOPkEa6Sm5YlDghTm/HNPKcupLNHw==
+gatsby@^2.19.1-jobs-ipc.0:
+  version "2.19.1-jobs-ipc.0"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.19.1-jobs-ipc.0.tgz#a991b98e38aca4db607bc538fe02de753242732c"
+  integrity sha512-8MXMx0+/5PlQWHePArm7YCh1hCQB6DAYQ6qyBGMgz2Mbjgt6sNxHEM56Sf8Z6u+1fTWiN1mtIifW2sol/bDCsA==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.7.5"
